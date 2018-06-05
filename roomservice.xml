@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://github.com/skunkworkx" name="skunk" />
-	<remote fetch="https://github.com/DevHTC10" name="htc10" />
-	<remote fetch="https://github.com/tabp0le" name="tabp0le" />
-	<remote fetch="https://github.com/SlimRoms/" name="slim" revision="ng7.1" />
+<!--	<remote fetch="https://github.com/skunkworkx" name="skunk" /> -->
+<!--	<remote fetch="https://github.com/DevHTC10" name="htc10" /> -->
+<!--	<remote fetch="https://github.com/tabp0le" name="tabp0le" /> -->
+<!--	<remote fetch="https://github.com/SlimRoms/" name="slim" revision="ng7.1" /> -->
 	
 <!--	<remove-project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="android_device_htc_pme" path="device/htc/pme" remote="tabp0le" revision="tabp0le-eas" /> -->
-  <project name="android_device_htc_pme" path="device/htc/pme" remote="htc10" revision="aosp_pme_n1" />
-<!--  <project name="LineageOS/android_device_htc_pme" path="device/htc/pme" remote="github" revision="cm-14.1" /> -->
-  <project name="android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="tabp0le" revision="tabp0le-eas" />
-<!--  <project name="LineageOS/android_kernel_htc_msm8996" path="kernel/htc/msm8996" remote="github" revision="cm-14.1" />  -->
-<!--  <project name="LineageOS/android_device_qcom_msm8996" path="device/qcom/common" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" /> -->
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
-<!--  <project name="LineageOS/android_external_ffmpeg" path="external/ffmpeg" remote="github" revision="cm-14.1" /> -->
-<!--  <project name="LineageOS/android_external_stagefright-plugins" path="external/stagefright-plugins" remote="github" revision="cm-14.1" /> -->
   
-		<!-- Hardware Related -->
-<!--  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8996" /> -->
-<!--  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8996" /> -->
-<!--  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8996" /> -->
+  
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.1" />
+	<project name="LineageOS/android_device_lge_h872" path="device/lge/h872" remote="github" revision="lineage-15.1" />
+	<project name="LineageOS/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="lineage-15.1" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+	<project name="rc420head/kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="cm-14.1" />
 
-<!--  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="cm-14.1" /> -->
-<!-- <project name="android_vendor_nitrogen" path="vendor/nitrogen" remote="skunk" revision="n2-caf" /> -->
-
- <!-- <project path="system/core" remote="slim" name="android_system_core" /> -->
- <!-- <project path="system/media" remote="slim" name="android_system_media" /> -->
-  
- <!-- <project path="external/exfat" remote="slim" name="android_external_exfat" /> -->
- <!-- <remove-project path="external/exfat" name="android_external_exfat" /> -->
-<!-- <project path="external/exfat" remote="slim" name="android_external_exfat" /> -->
-  <project path="external/ffmpeg" remote="slim" name="android_external_ffmpeg" />
- <!-- <project path="external/fuse" remote="slim" name="android_external_fuse" /> -->
-  <project path="external/stagefright-plugins" remote="slim" name="android_external_stagefright-plugins" />
- <!-- <project path="external/ntfs-3g" remote="slim" name="android_external_ntfs-3g" /> -->
-  
-   <!-- <project path="frameworks/av" remote="slim" name="frameworks_av" /> -->
- <!-- <project path="frameworks/av" remote="slim" name="frameworks_av" /> -->
-  <project path="frameworks/opt/cards" remote="slim" name="frameworks_opt_cards" />
- <!-- <project path="frameworks/native" remote="slim" name="frameworks_native" /> -->
-<!--  <project path="frameworks/opt/net/wifi" remote="slim" name="frameworks_opt_net_wifi" /> -->
-  
-  <project path="packages/apps/SamsungServiceMode" remote="slim" name="packages_apps_SamsungServiceMode" /> 
-
-	<!-- SnapDragon Clang Compiler -->
- <project name="tabp0le/snapdragon-llvm" path="prebuilts/snapdragon-llvm" remote="github" revision="master" />
 </manifest>
