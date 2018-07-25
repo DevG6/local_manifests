@@ -22,7 +22,7 @@
 	<project name="DevG6/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="LG_G6_AEX" />
 	
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
-	<project name="rc420head/kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="a8.1.0-caf" />
+	<project name="DevG6/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="nebula-beta" />
 	
 <!-- LG V10 H901 Device --> 
 	<project name="LG-V10/android_device_lge_h901" path="device/lge/h901" remote="github" revision="v10-oreo" />
