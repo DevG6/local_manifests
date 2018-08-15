@@ -6,10 +6,10 @@
 <!--	<remote fetch="https://github.com/SlimRoms/" name="slim" revision="ng7.1" /> -->
 	
 <!--	<remove-project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf" remote="github" revision="cm-14.1" /> -->
-
+    <remove-project name="platform/hardware/broadcom/wlan" />
 
 <!-- Vendor Files For LG Devices -->   
-	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.1" />
+	<project name="x86cpu/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.1" />
 <!-- LG G6 H872 Device --> 
 	<project name="DevG6/android_device_lge_h872" path="device/lge/h872" remote="github" revision="LG_G6_H872_AEX" />
 <!-- LG G6 H870 Device --> 
@@ -24,9 +24,13 @@
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
 	<project name="DevG6/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="nebula-release" />
 	
+   
+    <!-- Projects Replaced By Removed -->
+	<project name="DevG6/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="master" />
+    
 <!-- LG V10 H901 Device --> 
-	<project name="LG-V10/android_device_lge_h901" path="device/lge/h901" remote="github" revision="v10-oreo" />
+<!--	<project name="LG-V10/android_device_lge_h901" path="device/lge/h901" remote="github" revision="v10-oreo" />
 	<project name="LG-V10/android_device_lge_v10-common" path="device/lge/v10-common" remote="github" revision="v10-oreo" />
 	<project name="LG-V10/android_kernel_lge_msm8992" path="kernel/lge/msm8992" remote="github" revision="lineage-15.1" />
-
+    -->
 </manifest>
