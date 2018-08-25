@@ -9,7 +9,7 @@
     <remove-project name="platform/hardware/broadcom/wlan" />
 
 <!-- Vendor Files For LG Devices -->   
-	<project name="x86cpu/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-15.1" />
+	<project name="DevG6/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="release-master" />
 <!-- LG G6 H872 Device --> 
 	<project name="DevG6/android_device_lge_h872" path="device/lge/h872" remote="github" revision="LG_G6_H872_AEX" />
 <!-- LG G6 H870 Device --> 
@@ -19,13 +19,13 @@
 
 	<project name="DevG6/android_device_lge_common" path="device/lge/common" remote="github" revision="LG_G6_AEX" />
 	<project name="DevG6/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="LG_G6_AEX" />
-	<project name="DevG6/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="LG_G6_AEX" />
+	<project name="DevG6/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="LG_G6_AEX-ALT-2" />
 	
 	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
-	<project name="DevG6/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="nebula-release" />
+	<project name="DevG6/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="nebula-eas-release" />
 	
    
-    <!-- Projects Replaced By Removed -->
+<!-- Projects Replaced By Removed -->
 	<project name="DevG6/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="master" />
     
 <!-- LG V10 H901 Device --> 
